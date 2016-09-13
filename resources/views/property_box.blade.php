@@ -15,10 +15,10 @@
           {!! Form::text('address', '', array('class' => 'form-control', 'placeholder' => 'Address', 'required' => 'required')) !!}
         </div>
         <div class="form-group">
-          {!! Form::text('prop_value', '', array('class' => 'form-control', 'placeholder' => 'Property Value', 'required' => 'required')) !!}
+          {!! Form::number('prop_value', '', array('class' => 'form-control', 'placeholder' => 'Property Value', 'required' => 'required')) !!}
         </div>
         <div class="form-group">
-          {!! Form::text('mortgage', '', array('class' => 'form-control', 'placeholder' => 'Mortgage')) !!}
+          {!! Form::number('mortgage', '', array('class' => 'form-control', 'placeholder' => 'Mortgage')) !!}
         </div>
         {!! Form::submit('Create', array('class' => 'btn btn-default', 'name' => 'create_prop')) !!}
       {!! Form::close() !!}
