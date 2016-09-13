@@ -8,10 +8,20 @@
                 <div class="panel-heading">Tenants</div>
 				<div class="panel-body">
                 	<div class="row">
+						@if(!empty($properties))
 						<div class="col-sm-10 text-right"></div>
 						<div class="col-sm-2 text-right">
-							<a class="btn btn-default" href="#" data-toggle="modal" data-target="#Create_tenants">Create Tenants</a>
-						</div>
+				        	<a class="btn btn-default" href="#" data-toggle="modal" data-target="#Create_tenants">Create Tenants</a>
+				        </div>
+				        @else
+				        	<div class="col-sm-10 text-left">
+				        		<h3>Please create properties first.</h3>
+				        	</div>
+				        	<div class="col-sm-2 text-right">
+				        		<a class="btn btn-default" href="#" data-toggle="modal" data-target="#Create_prop">Create Property</a>
+				        	</div>
+
+				        @endif
 					</div>
                 	@foreach ($tenants as $tenant)
                 	<div class="row">
@@ -35,3 +45,4 @@
 </div>
 @endsection
 @extends('tenants_box')
+@extends('property_box')
