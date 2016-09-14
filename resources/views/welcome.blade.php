@@ -18,7 +18,7 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                           <div class="item active">
-                            <img src="http://placehold.it/1200x400?text=IMAGE" alt="Image">
+                            <img src="http://wowslider.com/sliders/demo-11/data/images/krasivyi_korabl_-1024x768.jpg" alt="Image">
                             <div class="carousel-caption">
                               <h3>Test</h3>
                               <p>Testing...</p>
@@ -26,7 +26,7 @@
                           </div>
 
                           <div class="item">
-                            <img src="http://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+                            <img src="http://wowslider.com/sliders/demo-5/data/images/sweden.jpg" alt="Image">
                             <div class="carousel-caption">
                               <h3>Test</h3>
                               <p>Testing...</p>
